@@ -62,7 +62,6 @@ jobs:
                       PUB_ENV=production
                       PUB_HOSTNAME=${{ vars.PUB_HOSTNAME || '' }}
                       PUB_PLAUSIBLE_URL=${{ vars.PUB_PLAUSIBLE_URL || '' }}
-                      PUB_DISABLE_ALL_EXTERNAL_REQUESTS=${{ vars.PUB_DISABLE_ALL_EXTERNAL_REQUESTS || true }}
                       PUB_VERTD_URL=${{ vars.PUB_VERTD_URL || 'https://vertd.vert.sh' }} 
                       PUB_DISABLE_ALL_EXTERNAL_REQUESTS=${{ vars.PUB_DISABLE_ALL_EXTERNAL_REQUESTS || true }} 
                       PUB_DONATION_URL=${{ vars.PUB_DONATION_URL || 'https://donations.vert.sh' }} 
